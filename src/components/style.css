@@ -1,0 +1,152 @@
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&family=Fredericka+the+Great&family=Montserrat:wght@300;400;500;600;700;800;900&family=Outfit&display=swap');
+
+/* font-family: 'Bree Serif', serif; : banner */
+/* font-family: 'Montserrat', sans-serif; */
+/* font-family: 'Outfit', sans-serif; : priceTag*/
+
+/* FLEX-BOX */
+.flexy{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.cards{
+    height: 38rem;
+    width: 95% !important;
+    max-width: 25rem !important;
+}
+
+.card{
+    width: 100% !important;
+}
+
+.card img{
+    height: 25rem !important;
+}
+
+.card .header{
+    height: 3.5rem !important;
+}
+
+.price{
+    font-weight: bold;
+}
+
+.items{
+    max-width: 70rem;
+    width: 100%;
+}
+
+.item .cart-image{
+    width: 12rem !important;
+    height: 16rem;
+}
+
+.cart-image img{
+    width: 12rem !important;
+    max-height: 15rem;
+}
+
+.item .lonely-image{
+    max-width: 30rem !important;
+    width: 100%;
+    height: 31rem;
+
+}
+
+.lonely-image img{
+    width: 25rem !important;
+    max-height: 30rem;
+}
+
+.navigate-individual{
+    cursor: pointer;
+}
+
+
+.loading-background{
+    min-width: 100vw;
+    min-height: 92vh;
+}
+
+.banner{
+    height: 3rem;  
+    font-size: 3rem;
+    font-family: "Bree Serif", serif;
+    text-transform: capitalize;
+}
+
+.cart-tag{ 
+    font-family: 'Outfit', sans-serif;
+    font-size: 1.2rem !important;
+}
+
+.rating-cart{
+    font-family: 'Outfit', sans-serif;
+    font-size: 1.2rem !important;
+    font-weight: 500;
+}
+.add-tolonely-btn button{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+    font-size: 1.2rem !important;
+
+}
+
+.lonely-tag{
+    font-family: 'Outfit', sans-serif;
+    font-size: 1.5rem !important;
+}
+.rating-lonely{
+    font-family: 'Outfit', sans-serif;
+    font-size: 1.5rem !important;
+    font-weight: 1000;
+}
+
+
+/* IF NO ITEM IS PRESENT */
+.noItem{
+    font-size: 2rem;
+    font-family: "Bree Serif", serif;
+    height: 75vh;
+    width: 100vw;
+}
+
+/* CART ITEM HEADER NAME */
+.header{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    font-size: 1.2rem;
+}
+
+.lonely-header{
+    min-height: 2.1rem;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    font-size: 2rem;
+}
+
+/* TOTAL -- CART */
+.total{
+    font-size: 2.3rem;
+    font-family: "Bree Serif", serif;
+}
+
+.total-total{
+    font-size: 2rem;
+    font-family: 'Outfit', sans-serif;
+}
+
+.navbar-brand{
+    font-family: 'Fredericka the Great', cursive;
+    font-size: 2rem;
+    letter-spacing: 0.2rem;
+}
+
+.desc{
+ 
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    font-size: 1.2rem;   
+}
